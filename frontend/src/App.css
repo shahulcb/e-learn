@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F9FA;
+}
+
+.common-btn {
+    background-color: #05668D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    margin-top: 10px;
+    width: 100%;
+
+    &:hover {
+        background-color: #05668de5;
+    }
+
+    @media (max-width:768px) {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,28 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 10px;
+
+
+    .box {
+        flex: 1;
+        background-color: #05668D;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        color: whitesmoke;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 21px;
+
+        &:hover {
+            background-color: #05668de5;
+        }
+    }
+}

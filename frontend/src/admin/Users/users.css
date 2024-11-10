@@ -1,0 +1,12 @@
+.users {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    min-height: 80vh;
+    text-align: center;
+
+    table {
+        margin: 0 auto;
+    }
+}
